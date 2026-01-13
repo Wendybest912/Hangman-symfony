@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}À propos{% endblock %}
+
+{% block body %}
+    <h1> Apropos de notre application comment y jouer ?</h1>
+        
+    <h2> Règles du jeu</h2>
+    <ul>
+        <li>Un mot mystère est choisi au hasard selon le thème sélectionné</li>
+        <li>Vous devez deviner le mot lettre par lettre</li>
+        <li>Vous avez <strong>7 essais</strong> pour trouver le mot</li>
+        <li>Chaque mauvaise lettre ajoute une partie au bonhomme pendu</li>
+        <li>Si le bonhomme est complet avant de trouver le mot, vous perdez !</li>
+    </ul>
+{% endblock %}

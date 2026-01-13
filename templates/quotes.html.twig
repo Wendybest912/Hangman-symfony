@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Citation du jour{% endblock %}
+
+{% block body %}
+    <h1>Citation du jour</h1>
+    <blockquote>
+        <p>{{ quotes }}</p>
+    </blockquote>
+    <p><a href="{{ path('quotes') }}">Nouvelle citation</a></p>
+{% endblock %}
