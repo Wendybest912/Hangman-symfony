@@ -1,2 +1,1 @@
-# Hangman-symfony
-# Hangman-symfony
+# gd
